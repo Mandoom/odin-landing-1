@@ -1,9 +1,31 @@
 .hero {
-    background-image: url(/images/leather-bg.jpg);
-    
+   
+
 }
 .container {
     max-width:1140px;
     display:block;
     margin:0 auto;
 }
+
+.header-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu .menu-item {
+    margin: 6px 8px;
+}
+
+li:nth-last-child {
+    margin-right:0px!important;
+}
+
+.hero-content {display:flex;
+justify-content: space-between;}
