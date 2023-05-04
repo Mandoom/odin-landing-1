@@ -1,9 +1,16 @@
-.hero {
-   
-
+body {
+    margin:0!important;
 }
+.hero {
+    background-color: #1f2937;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
-    max-width:1140px;
+    max-width:1140px!important;
+    width:100%!important;
     display:block;
     margin:0 auto;
 }
@@ -27,5 +34,41 @@ li:nth-last-child {
     margin-right:0px!important;
 }
 
-.hero-content {display:flex;
-justify-content: space-between;}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    
+    
+}
+
+.information-container {
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height:400px;
+    align-items: center;
+}
+
+.info-items-container, .info-items {display:flex;}
+
+.info-items-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info-title {
+    margin-top:48px;
+    margin-bottom:48px;
+}
+
+
+
+.item-img {
+    border:3px solid blue;
+    width:150px;
+    height:150px;
+}
